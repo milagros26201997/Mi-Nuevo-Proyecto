@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pagina 1
+</title>
+	<link rel="stylesheet" href="estilo 1.css"
+</head>
+<body>
+
+
+
+<div>
+<ul>
+  <li><a href="">CURSOS</a></li>
+  <li><a href="">INFO</a></li>
+  <li><a href="https://aulacm.com/blog/">BLOG</a></li>
+  <li><a href="https://aulacm.com/videos-marketing-online/">VÍDEOS</a></li>
+<li><a href="">CONTENIDOS</a></li>
+<li><a href="https://aulacm.com/contact/">CONTACTO</a></li>
+</div>
+</li>
+</ul>
+
+<div id="cabecera">
+ 
+<p>Blog de Aula CM<br/>
+<font SIZE=4>Community Manager, Marketing de Contenidos, Blogs y SEOA</font><br/>_____</p>
+</div>
+      
+<div id="lateral">
+
+<a 	
+href="https://twitter.com/aulaCM"><img id="img" src=https://i.ibb.co/MsqH0Hg/ffff.png alt="twitter" text-decoration:none >
+</a>
+
+<a 	
+href="https://www.facebook.com/aulaCM"> <img id="img" src=https://i.ibb.co/KrZrhTq/grg.png 	alt="facebook" 
+</a>
+
+<a 	
+href="https://www.instagram.com/aulacm/"><img id="img" src=https://i.ibb.co/gMJTKG8/fsdfds.png alt="instagram" 
+</a> <br/>
+
+<a 	
+href="https://www.youtube.com/user/aulacm"><img id="img" src=https://i.ibb.co/xJNB5zH/sdfsff.png alt="youtube" >
+</a>
+
+<a 	
+href="https://www.pinterest.com/aulaCM/"><img id="img"				src=https://i.ibb.co/BTBCMJN/fdgdsgsdfsf.png alt="pinteres" 
+</a>
+
+<a 
+href="https://soundcloud.com/radiomarketing"><img id="img" 	src=https://i.ibb.co/Qf3WStx/sfegeg.png alt="soundcloud">
+</a>
+ 
+<br/>
+<br/>
+<br/>
+      
+<img  src=https://i.ibb.co/BCPCR0m/rgdfgfdg.png 	alt="visitas" width="300" height="450" style="float:left">
+<br/>
+<br/>
+<br/>
+
+<img  src="https://i.ibb.co/MRgJC62/fs.png" alt="autores" width="300" height="550" style="float:left">
+<br/>
+<br/>
+<br/>
+
+<img  src="https://i.ibb.co/SDSqh6V/wfasf.png" alt="indice" width="300" height="270" style="float:left">
+<br/>
+<br/>
+<br/>
+
+<img src="https://i.ibb.co/FVKwPVF/fsaf.png
+" alt="ingrese" width="300" height="610" style="float:left">
+</div>
+      
+      
+<div id="contenido">
+
+<a 
+href="https://aulacm.com/copywriting-anuncios-efectivos-facebook-ads/"><img id="imagen" src=https://aulacm.com/wp-content/uploads/2019/03/Copywriting-facebook-ads.png alt="Codigos CSS" >
+</a>
+<br/>
+<br/>
+<a
+href="https://aulacm.com/copywriting-anuncios-efectivos-facebook-ads/">
+<h1  id="t" title="Copywriting para Facebook Ads: Cómo escribir anuncios efectivos en 5 Pasos"><img id="icono"src=https://i.ibb.co/gPyjjrZ/imagen.png alt="Icono"> Copywriting para Facebook Ads: Cómo escribir anuncios efectivos en 5 Pasos 
+</h1>
+</a>
+<br/>
+<p id="fecha" ><a id="autor" href="https://aulacm.com/author/milena/"><i>Milena Gonzáles</i></a> 26 marzo, 2019 
+</p>
+<br/>
+<br/>
+<p id="p"> 
+Más del 93% de los anunciantes en social media utilizan el sistema publicitario de Facebook. Sin embargo, son pocos los que crean anuncios rentables que cumplan con sus objetivos de conversión. Un buen copywriting en Facebook Ads es fundamental a la hora de conseguir que este formato publicitario tenga éxito. ¿Sabes cómo crear anuncios que realmente sean efectivos?.
+</p>
+<br/>
+<br/>
+<p align="center">
+<a id="a" href="https://aulacm.com/copywriting-anuncios-efectivos-facebook-ads/">  SEM Marketing Online  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a  id="a" href="https://aulacm.com/copywriting-anuncios-efectivos-facebook-ads/#respond">No hay comentarios 
+</a>
+</p>
+</a>
+<br/>
+<br/>
+<br/>
+
+<a 
+"https://aulacm.com/dudas-legales-marketing-digital-resueltas/"><img id="imagen" src=https://aulacm.com/wp-content/uploads/2019/03/BannerDudas-legales.png alt="Las 11 Dudas Legales" >
+</a>
+<br/>
+<br/>
+<a
+href=href="https://aulacm.com/dudas-legales-marketing-digital-resueltas/">
+<h1  id="t" title="Permalink Las 11 Dudas Legales más importantes en Marketing Digital -- RESUELTAS"><img id="icono" src=https://i.ibb.co/gPyjjrZ/imagen.png alt="Icono" > Las 11 Dudas Legales más importantes en Marketing Digital ---RESUELTAS 
+</h1>
+</a>
+<br/>
+<p id="fecha" ><a id="autor" "https://aulacm.com/author/milena/"><i>Milena Gonzáles</i></a> 22 marzo, 2019 
+</p>
+<br/>
+<br/>
+<p id="p"> 
+Son muchos los aspectos legales que hay detrás de cualquier sitio web. La captación de suscriptores, la política de cookies o el copyrigth son algunas de las <strong> dudas legales </strong> que más preocupan a los creadores de contenidos digitales. Es importante establecer los derechos de la propia empresa, los del usuario, los de propiedad intelectual, avisos, términos y condiciones legales, entre otras cuestiones..
+</p>
+<br/>
+<br/>
+<p align="center">
+<a id="a" href="https://aulacm.com/copywriting-anuncios-efectivos-facebook-ads/"> Community Manager &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a  id="a" href="https://aulacm.com/copywriting-anuncios-efectivos-facebook-ads/#respond">No hay comentarios
+</a>
+</p>
+</a>
+<br/>
+<br/>
+<br/>
+<a 
+ href="https://aulacm.com/tipos-ataques-reputacion-online-defender/"><img id="imagen" src=https://aulacm.com/wp-content/uploads/2019/03/AtaquesAtaques-online-grande.png alt="9 Tipos de Ataques de Reputación Online y Cómo defenderte de ellos">
+</a>
+<br/>
+<br/>
+<a
+href="https://aulacm.com/tipos-ataques-reputacion-online-defender/">
+<h1  id="t" title="Permalink 9 Tipos de Ataques de Reputación Online y Cómo defenderte de ellos"><img id="icono" src=https://i.ibb.co/gPyjjrZ/imagen.png alt="Icono" >9 Tipos de Ataques de Reputación Online y Cómo defenderte de ellos
+</h1>
+</a>
+<br/>
+<p id="fecha" ><a id="autor" href="https://aulacm.com/author/christian-leis/"><i>Christian Leis</i></a> 18 marzo, 2019 
+</p>
+<br/>
+<br/>
+<p id="p"> 
+El posicionamiento web es, para muchas empresas, una gran fuente de ingresos. En ocasiones, usuarios malintencionados o la propia competencia pueden realizar Ataques Online que <strong> afecten negativamente al posicionamiento </strong> y a la reputación online de tu marca. ¿Sabrías cómo defender tu sitio web si te atacan?.
+</p>
+<br/>
+<br/>
+<p align="center">
+<a id="a" "https://aulacm.com/seo-posicionamiento-en-buscadores/"> SEO / Posicionamiento&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a  id="a" "https://aulacm.com/tipos-ataques-reputacion-online-defender/#comments">7 comentarios</a>
+</p>
+</a>
+<br/>
+<br/>
+<br/>
+<a 
+ href="https://aulacm.com/hacks-neuromarketing-conversion-cro-seo/"><img id="imagen" src=https://aulacm.com/wp-content/uploads/2019/03/Hacks-neuromarketing-grande.png alt="33 Hacks infalibles de Neuromarketing aplicados a CONVERSIÓN y a SEO">
+</a>
+<br/>
+<br/>
+<a
+href="https://aulacm.com/hacks-neuromarketing-conversion-cro-seo/">
+<h1  id="t" title="Permalink 33 Hacks infalibles de Neuromarketing aplicados a CONVERSIÓN y a SEO"><img id="icono" src=https://i.ibb.co/gPyjjrZ/imagen.png alt="Icono" >33 Hacks infalibles de Neuromarketing aplicados a CONVERSIÓN y a SEO 
+</h1>
+</a>
+<br/>
+<p id="fecha" ><a id="autor" href=href="https://aulacm.com/author/milena/"><i>Milena González</i></a> 12 marzo, 2019 
+</p>
+<br/>
+<br/>
+<p id="p"> 
+Conseguir que nuestros usuarios realicen acciones dentro de nuestra página web puede ser una tarea complicada. No obstante, existen ciertas estrategias de neuromarketing que pueden ayudarnos a entender mejor cómo piensan e interactúan nuestros clientes con ciertos contenidos. Pero, ¿cómo podemos utilizar estas estrategias a nivel práctico para aumentar las conversiones?
+</p>
+<br/>
+<br/>
+<p align="center">
+<a id="a" href="https://aulacm.com/el-community-manager/"> Community Manager &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a  id="a" href="https://aulacm.com/hacks-neuromarketing-conversion-cro-seo/#respond" style="text-decoration:none;">No hay comentarios
+</a>
+</p>
+</a>
+<br/>
+<br/>
+<br/>
+<a 
+ href=href="https://aulacm.com/tecnicas-persuasion-mejorar-conversion/"><img id="imagen" src=https://aulacm.com/wp-content/uploads/2019/03/Conversion-grande.png alt="10 Técnicas de Persuasión para Disparar tu Conversión + Ejemplos Reales">
+</a>
+<br/>
+<br/>
+<a
+href="https://aulacm.com/tecnicas-persuasion-mejorar-conversion/">
+<h1  id="t" title="Permalink 10 Técnicas de Persuasión para Disparar tu Conversión + Ejemplos Reales"><img id="icono" src=https://i.ibb.co/gPyjjrZ/imagen.png alt="Icono" >10 Técnicas de Persuasión para Disparar tu Conversión + Ejemplos Reales
+</h1>
+</a>
+<br/>
+<p id="fecha" ><a id="autor" href="https://aulacm.com/author/salima/"><i>Salima Sánchez</i></a> 11 marzo, 2019 
+</p>
+<br/>
+<br/>
+<p id="p"> 
+En un mundo empresarial en el que abunda la competencia, las empresas deben aprender a <strong>diferenciarse para conseguir clientes</strong>. Para ello, es importante que conozcan a sus usuarios, su comportamiento de compra y les ofrezcan aquello que les interesa. Las <strong>técnicas de persuasión</strong> pueden ayudarnos a alcanzar este objetivo pero, ¿cómo podemos aplicarlas en una estrategia de marketing?.
+</p>
+<br/>
+<br/>
+<p align="center">
+<a id="a" href="https://aulacm.com/el-community-manager/"> Community Manager&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a  id="a" href="https://aulacm.com/tecnicas-persuasion-mejorar-conversion/#comments">6 comentarios
+</a>
+</p>
+</a>
+<br/>
+<br/>
+<br/>
+
+<a 
+href="https://aulacm.com/marketing-emocional-diferenciar-negocio/"><img id="imagen" src=https://aulacm.com/wp-content/uploads/2019/03/Marketing-emocional_Marketing-emocional-109.png alt="Los 3 Pilares más importantes del Marketing Emocional para una Marca">
+</a>
+<br/>
+<br/>
+<a
+href="https://aulacm.com/marketing-emocional-diferenciar-negocio/">
+<h1  id="t" title="Permalink los 3 Pilares más importantes del Marketing Emocional para una Marca"><img id="icono" src=https://i.ibb.co/gPyjjrZ/imagen.png alt="Icono" >Los 3 Pilares más importantes del Marketing Emocional para una Marca 
+</h1>
+</a>
+<br/>
+<p id="fecha" ><a id="autor" href="https://aulacm.com/author/arantxa/"><i>Arantxa García</i></a> 7 marzo, 2019 
+</p>
+<br/>
+<br/>
+<p id="p"> 
+La competencia entre empresas cada vez es más feroz. Los productos y servicios son cada día más homogéneos y las empresas deben buscar la forma de sobresalir frente al resto. El <strong>Marketing Emocional y Experiencial </strong> es una de las mejores medidas para conseguir este objetivo, pero ¿En qué consiste y cómo aplicarlo a una marca?.
+</p>
+<br/>
+<br/>
+<p align="center">
+<a id="a" href="https://aulacm.com/el-community-manager/"> Community Manager &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a  id="a" href="https://aulacm.com/marketing-emocional-diferenciar-negocio/#respond">No hay comentarios
+</a>
+</p>
+</a>
+</br>
+</br>
+</br>
+</br>
+
+<a href="pagina 2.html" target="_blank"><button id="bo">&nbsp;&nbsp;Siguiente&nbsp;&nbsp;</button>
+</a>
+
+</div>              
+<div id="pie">
+<img src="https://i.ibb.co/TqrSHs7/Sin-t-tulo.png" alt="redes" width="560" height="70" float="center">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<p style=>Aviso Legal y Política de Privacidad <br/> Ley de Cookies </p>
+</div>
+
+</body>
+</html>
+
+
