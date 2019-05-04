@@ -74,3 +74,33 @@ a:link {
 #cabecera { 
 	background-color: #fff0f0; 
 	}  
+#navegador { 
+	background-color: 	#000080; 
+	padding:1em; 
+	}
+
+#navegador li { 
+	margin: 0px 7px; 
+	padding: 0.1em 1em 0.5em 1em; 
+           	background-color: #1CBACC; 
+	width: 12%;
+	float: left;
+           	list-style-type: none; 
+	position: relative; 
+	}
+
+#subseccion1, #subseccion2, #subseccion3, 
+
+#subseccion4,#subseccion5,#subseccion6 
+             { 
+	position: absolute; 
+	top: 100%; 
+	left: 30px;  
+             background-color: 	#000080; 
+	font:normal 0.8em arial;  
+             padding: 2em 0.5em ; 
+	display: none; }		
+				 
+#navegador li:hover { 
+	background-color: 	#6A5ACD; 
+	}
