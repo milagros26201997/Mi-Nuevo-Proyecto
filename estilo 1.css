@@ -23,6 +23,7 @@ a:link {
 	font-size:400%;
 	font-family:Decorativa;
 	}
+
    
 #contenido {
 	margin-left:60px;
@@ -112,7 +113,7 @@ a:link {
 
 ul {
 	list-style-type: none;
-	padding-left: 30%;
+	padding-left: 15%;
 	overflow: hidden;
 	background-color:#1CBACC;
 	position: fixed;
@@ -130,7 +131,7 @@ li a, .dropbtn {
 	font-weight: bold;
 	color: white;
 	text-align: center;
-	padding: 30px 30px;
+	padding: 30px 40px;
 	font-family: Vegur;
 	text-decoration: none;
 	}
