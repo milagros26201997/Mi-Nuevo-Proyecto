@@ -69,8 +69,6 @@ a:link {
 
 
 
-
-
 #cabecera { 
 	background-color: #fff0f0; 
 	}  
@@ -118,10 +116,6 @@ a:link {
 	}
 
 
-
-
-
-
 .calculadora{
   display:block;
   margin:0 auto;
@@ -163,3 +157,20 @@ width: 250px; height: 40px; border: 4px solid black;
          float: right; margin: 1em 1em 1em 1em;
 	
 }
+
+#navegador li a:link, #navegador li a:visited { 
+           	color: white; 
+	text-decoration: none; 
+	}
+
+#navegador li a:hover, #navegador li a:active { 
+           	color:red ;
+	text-decoration: none; 
+	}
+
+.borrar { 
+	clear: both; 
+	}	
+
+
+
