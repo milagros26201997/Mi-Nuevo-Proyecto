@@ -104,3 +104,62 @@ a:link {
 #navegador li:hover { 
 	background-color: 	#6A5ACD; 
 	}
+
+#principal h2 { 
+	font: bold 1.5em verdana; 
+	padding: 2em 
+	}
+
+#principal p { 
+	font: normal 0.9em verdana; 
+	text-align: center;
+           	text-indent: 3em; 
+	padding: 2em 2em; 
+	}
+
+
+
+
+
+
+.calculadora{
+  display:block;
+  margin:0 auto;
+  padding:50px;
+  background-color:red;
+  width:300px;
+  height:520px;
+  border-radius: 45px;
+  overflow: hidden;
+}
+.calculadora td button{
+  display:block;
+  background-color:white;
+  width:70px;
+  height: 70px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+#resultado{
+  display:block;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  width:300px;
+  height: 100px;
+  line-height: 100px;
+  background-color:#fff;
+  border-radius: 25px;
+  overflow: hidden;
+  
+}
+
+
+#reloj { 
+width: 250px; height: 40px; border: 4px solid black; 
+         font: bold 1.5em dotum, "lucida sans", arial; 
+         text-align: center;
+         float: right; margin: 1em 1em 1em 1em;
+	
+}
