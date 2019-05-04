@@ -1,13 +1,12 @@
 function ver(n) {
-         document.getElementById
-
-("subseccion"+n).style.display="block"
+         document.getElementById("subseccion"+n).style.display="block"
          }
 function ocultar(n) {
-         document.getElementById
-
-("subseccion"+n).style.display="none"
+         document.getElementById("subseccion"+n).style.display="none"
          }
+
+//calculadora 
+
 
 var variable1;
 var variable2;
@@ -30,15 +29,13 @@ var resultado = document.getElementById('resultado');
   var reset = document.getElementById('reset');
   var suma = document.getElementById('suma');
   var resta = document.getElementById('resta');
-var multiplicacion = document.getElementById
-
-('multiplicacion');
+var multiplicacion = document.getElementById('multiplicacion');
   var division = document.getElementById('division');
   var igual = document.getElementById('igual');
  
 }
 
-uno.onclick = function(e){
+  uno.onclick = function(e){
   		resultado.textContent =  
 resultado.textContent  + "1";
   }
@@ -70,9 +67,7 @@ resultado.textContent  + "7";
   		resultado.textContent =  
 resultado.textContent  + "8";
   }
-  nueve.onclick = function(e){ resultado.textContent = 
-
-resultado.textContent  +  "9";
+  nueve.onclick = function(e){ resultado.textContent = resultado.textContent  +  "9";
   }
   cero.onclick = function(e){
   		resultado.textContent =  
@@ -106,6 +101,8 @@ resultado.textContent  + "0";
   		resolver();
   }
 
+
+
 function limpiar(){
   resultado.textContent = "";
 }
@@ -116,6 +113,8 @@ function resetear(){
   variable2 = 0;
   operacion = "";
 }
+
+
 
 function resolver(){
   var res = 0;
@@ -143,6 +142,10 @@ function resolver(){
   resetear();
   resultado.textContent = res;
 }
+
+
+
+
 function actual() {
          fecha=new Date(); 
          hora=fecha.getHours();
@@ -167,35 +170,26 @@ function actualizar() {
 	 }
 setInterval(actualizar,1000);
 
+
+
+
+
 var centesimas = 0;
 var segundos = 0;
 var minutos = 0;
 var horas = 0;
 function inicio () {
 	control = setInterval(cronometro,10);
-	document.getElementById("inicio").disabled = 
-
-true;
-	document.getElementById("parar").disabled = 
-
-false;
-	document.getElementById("continuar").disabled = 
-
-true;
-	document.getElementById("reinicio").disabled = 
-
-false;
+	document.getElementById("inicio").disabled = true;
+	document.getElementById("parar").disabled = false;
+	document.getElementById("continuar").disabled = true;
+	document.getElementById("reinicio").disabled = false;
 }
 function parar () {
 	clearInterval(control);
-	document.getElementById("parar").disabled = 
-
-true;
-	document.getElementById("continuar").disabled = 
-
-false;
+	document.getElementById("parar").disabled = true;
+	document.getElementById("continuar").disabled = false;
 }
-
 function reinicio () {
 	clearInterval(control);
 	centesimas = 0;
@@ -206,37 +200,23 @@ function reinicio () {
 	Segundos.innerHTML = ":00";
 	Minutos.innerHTML = ":00";
 	Horas.innerHTML = "00";
-	document.getElementById("inicio").disabled = 
-
-false;
-	document.getElementById("parar").disabled = 
-
-true;
-	document.getElementById("continuar").disabled = 
-
-true;
-	document.getElementById("reinicio").disabled = 
-
-true;
+	document.getElementById("inicio").disabled = false;
+	document.getElementById("parar").disabled = true;
+	document.getElementById("continuar").disabled = true;
+	document.getElementById("reinicio").disabled = true;
 }
 function cronometro () {
 	if (centesimas < 99) {
 		centesimas++;
-		if (centesimas < 10) { centesimas = 
-
-"0"+centesimas }
-		Centesimas.innerHTML = 
-
-":"+centesimas;
+		if (centesimas < 10) { centesimas = "0"+centesimas }
+		Centesimas.innerHTML = ":"+centesimas;
 	}
 	if (centesimas == 99) {
 		centesimas = -1;
 	}
 	if (centesimas == 0) {
 		segundos ++;
-		if (segundos < 10) { segundos = 
-
-"0"+segundos }
+		if (segundos < 10) { segundos = "0"+segundos }
 		Segundos.innerHTML = ":"+segundos;
 	}
 	if (segundos == 59) {
@@ -244,54 +224,27 @@ function cronometro () {
 	}
 	if ( (centesimas == 0)&&(segundos == 0) ) {
 		minutos++;
-		if (minutos < 10) { minutos = 
-
-"0"+minutos }
+		if (minutos < 10) { minutos = "0"+minutos }
 		Minutos.innerHTML = ":"+minutos;
 	}
 	if (minutos == 59) {
 		minutos = -1;
 	}
-	if ( (centesimas == 0)&&(segundos == 0)&&
-
-(minutos == 0) ) {
+	if ( (centesimas == 0)&&(segundos == 0)&&(minutos == 0) ) {
 		horas ++;
 		if (horas < 10) { horas = "0"+horas }
 		Horas.innerHTML = horas;
 	}
 }
 
+
 function myFunction(){
-	document.getElementById("demo").innerHTML = 
-
-"El texto esta compuesto por signos de uno o varios 
-
-alfabetos, que guardan relación entre sí; la aceptación 
-
-moderna de la palabra texto, significa cualquier 
-
-manifestación verbal y completa que se produzca en una 
-
-comunicación. Por ende, son textos los escritos de literatura 
-
-que leemos, las redacciones y exposiciones de las personas, 
-
-las noticias en la prensa, pancartas publicitarias, los escritos 
-
-en las cartas, conversaciones o diálogos, entre otros.";
+	document.getElementById("demo").innerHTML = "El texto esta compuesto por signos de uno o varios alfabetos, que guardan relación entre sí; la aceptación moderna de la palabra texto, significa cualquier manifestación verbal y completa que se produzca en una comunicación. Por ende, son textos los escritos de literatura que leemos, las redacciones y exposiciones de las personas, las noticias en la prensa, pancartas publicitarias, los escritos en las cartas, conversaciones o diálogos, entre otros.";
 	}
 
 function myFunction2(){
 document.getElementById("demo2").style.color = "red";
-document.getElementById("demo2").style.fontSize = 
-
-"25px";
-document.getElementById
-
-("demo2").style.fontFamily="Chiller";
-document.getElementById("demo2").style.background= 
-
-"black";
+document.getElementById("demo2").style.fontSize = "25px";
+document.getElementById("demo2").style.fontFamily="Chiller";
+document.getElementById("demo2").style.background= "black";
 }
-
-
