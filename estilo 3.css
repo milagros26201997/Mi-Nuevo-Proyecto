@@ -1,4 +1,4 @@
-* { 
+ * { 
 	padding: 0; 
 	margin: auto; 
 	}
@@ -10,6 +10,7 @@ ul {
 a:link {
 	text-decoration: none;
 	}
+
 
 #cabeza {
 	color:white;
@@ -28,6 +29,7 @@ a:link {
 	width:25%;
 	box-sizing: border-box;
 	}
+
 #contenido {
 	margin-left:40px;
 	margin-right:20px;
@@ -69,9 +71,12 @@ a:link {
 
 
 
+
+
 #cabecera { 
 	background-color: #fff0f0; 
 	}  
+
 #navegador { 
 	background-color: 	#000080; 
 	padding:1em; 
@@ -87,9 +92,7 @@ a:link {
 	position: relative; 
 	}
 
-#subseccion1, #subseccion2, #subseccion3, 
-
-#subseccion4,#subseccion5,#subseccion6 
+#subseccion1, #subseccion2, #subseccion3, #subseccion4,#subseccion5,#subseccion6 
              { 
 	position: absolute; 
 	top: 100%; 
@@ -103,6 +106,20 @@ a:link {
 	background-color: 	#6A5ACD; 
 	}
 
+#navegador li a:link, #navegador li a:visited { 
+           	color: white; 
+	text-decoration: none; 
+	}
+
+#navegador li a:hover, #navegador li a:active { 
+           	color:red ;
+	text-decoration: none; 
+	}
+
+.borrar { 
+	clear: both; 
+	}	
+
 #principal h2 { 
 	font: bold 1.5em verdana; 
 	padding: 2em 
@@ -114,7 +131,6 @@ a:link {
            	text-indent: 3em; 
 	padding: 2em 2em; 
 	}
-
 
 .calculadora{
   display:block;
@@ -158,20 +174,9 @@ width: 250px; height: 40px; border: 4px solid black;
 	
 }
 
-#navegador li a:link, #navegador li a:visited { 
-           	color: white; 
-	text-decoration: none; 
-	}
 
-#navegador li a:hover, #navegador li a:active { 
-           	color:red ;
-	text-decoration: none; 
-	}
 
-.borrar { 
-	clear: both; 
-	}	
-
+}
 #contenedor{
 	margin: 0px auto;
 	width: 10px;
@@ -197,15 +202,13 @@ width: 250px; height: 40px; border: 4px solid black;
 	background-image: linear-gradient(blue,black);
 }
 .boton:active{
-	background-image: linear-gradient
-
-(#2c6f05,black);
+	background-image: linear-gradient(#2c6f05,black);
 }
 .boton:hover{
 	box-shadow: 0px 0px 24px red;
 }
 
-#cambiar{ 
+#cambia{ 
 	float:center;
 	background-color:#64C888;
 	padding: 5px;
@@ -214,8 +217,4 @@ width: 250px; height: 40px; border: 4px solid black;
 	color:white;
 	font-size: 20px;
 	font-family: verdana;
-}
-
-
-
-
+	}
