@@ -10,3 +10,21 @@ ul {
 a:link {
 	text-decoration: none;
 	}
+
+#cabeza {
+	color:white;
+	background-color:#1CBACC;
+	padding:80px;
+	text-align: center;
+	font-size:450%;
+	font-family:Decorativa;
+	}
+   
+#lateral {
+	margin-right:20px;	
+	margin-left:40px;	
+	float:left;
+	padding-top: 60px;
+	width:25%;
+	box-sizing: border-box;
+	}
