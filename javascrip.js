@@ -160,3 +160,138 @@ function actual() {
           mireloj = hora+" : "+minuto+" : "+segundo;	
 				 return mireloj; 
          }
+function actualizar() {
+   mihora=actual(); 
+   mireloj=document.getElementById("reloj");
+   mireloj.innerHTML=mihora;
+	 }
+setInterval(actualizar,1000);
+
+var centesimas = 0;
+var segundos = 0;
+var minutos = 0;
+var horas = 0;
+function inicio () {
+	control = setInterval(cronometro,10);
+	document.getElementById("inicio").disabled = 
+
+true;
+	document.getElementById("parar").disabled = 
+
+false;
+	document.getElementById("continuar").disabled = 
+
+true;
+	document.getElementById("reinicio").disabled = 
+
+false;
+}
+function parar () {
+	clearInterval(control);
+	document.getElementById("parar").disabled = 
+
+true;
+	document.getElementById("continuar").disabled = 
+
+false;
+}
+
+function reinicio () {
+	clearInterval(control);
+	centesimas = 0;
+	segundos = 0;
+	minutos = 0;
+	horas = 0;
+	Centesimas.innerHTML = ":00";
+	Segundos.innerHTML = ":00";
+	Minutos.innerHTML = ":00";
+	Horas.innerHTML = "00";
+	document.getElementById("inicio").disabled = 
+
+false;
+	document.getElementById("parar").disabled = 
+
+true;
+	document.getElementById("continuar").disabled = 
+
+true;
+	document.getElementById("reinicio").disabled = 
+
+true;
+}
+function cronometro () {
+	if (centesimas < 99) {
+		centesimas++;
+		if (centesimas < 10) { centesimas = 
+
+"0"+centesimas }
+		Centesimas.innerHTML = 
+
+":"+centesimas;
+	}
+	if (centesimas == 99) {
+		centesimas = -1;
+	}
+	if (centesimas == 0) {
+		segundos ++;
+		if (segundos < 10) { segundos = 
+
+"0"+segundos }
+		Segundos.innerHTML = ":"+segundos;
+	}
+	if (segundos == 59) {
+		segundos = -1;
+	}
+	if ( (centesimas == 0)&&(segundos == 0) ) {
+		minutos++;
+		if (minutos < 10) { minutos = 
+
+"0"+minutos }
+		Minutos.innerHTML = ":"+minutos;
+	}
+	if (minutos == 59) {
+		minutos = -1;
+	}
+	if ( (centesimas == 0)&&(segundos == 0)&&
+
+(minutos == 0) ) {
+		horas ++;
+		if (horas < 10) { horas = "0"+horas }
+		Horas.innerHTML = horas;
+	}
+}
+
+function myFunction(){
+	document.getElementById("demo").innerHTML = 
+
+"El texto esta compuesto por signos de uno o varios 
+
+alfabetos, que guardan relación entre sí; la aceptación 
+
+moderna de la palabra texto, significa cualquier 
+
+manifestación verbal y completa que se produzca en una 
+
+comunicación. Por ende, son textos los escritos de literatura 
+
+que leemos, las redacciones y exposiciones de las personas, 
+
+las noticias en la prensa, pancartas publicitarias, los escritos 
+
+en las cartas, conversaciones o diálogos, entre otros.";
+	}
+
+function myFunction2(){
+document.getElementById("demo2").style.color = "red";
+document.getElementById("demo2").style.fontSize = 
+
+"25px";
+document.getElementById
+
+("demo2").style.fontFamily="Chiller";
+document.getElementById("demo2").style.background= 
+
+"black";
+}
+
+
