@@ -1,1 +1,12 @@
-g
+* { 
+	padding: 0; 
+	margin: auto; 
+	}
+
+ul {
+	list-style-type:none;
+	}
+
+a:link {
+	text-decoration: none;
+	}
