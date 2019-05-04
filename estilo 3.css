@@ -28,3 +28,23 @@ a:link {
 	width:25%;
 	box-sizing: border-box;
 	}
+#contenido {
+	margin-left:40px;
+	margin-right:20px;
+	float:right;
+	padding-top: 40px;
+	width:65%;
+	box-sizing: border-box;
+	}
+
+#icono{
+	float:left;
+	width:90px;
+	height:80px;
+	}
+
+#t{
+	color:#076E7A;	
+	font-family:Tw Cen MT;
+	font-weight:100;
+	}
