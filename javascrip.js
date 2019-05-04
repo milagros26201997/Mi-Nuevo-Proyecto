@@ -248,3 +248,13 @@ document.getElementById("demo2").style.fontSize = "25px";
 document.getElementById("demo2").style.fontFamily="Chiller";
 document.getElementById("demo2").style.background= "black";
 }
+
+
+function calcularTotal(){
+   var monto=Number(document.getElementById("monto").value);
+   var igv=Number(document.getElementById("igv").value);
+   var total;
+   total=(monto+(monto*(igv/100)));
+   document.getElementById("parrafoTotal").innerHTML = "Total de venta: " + total;
+}
+
