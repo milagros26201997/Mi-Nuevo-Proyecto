@@ -48,3 +48,29 @@ a:link {
 	font-family:Tw Cen MT;
 	font-weight:100;
 	}
+
+#parra{
+	margin-left:85px;
+	font-family:sans-serif;
+	font-size:120%;
+	color:#3f3f3f;
+         
+	}
+
+#pie { 
+	background-color:#1CBACC;
+	clear:both;
+	color:white;
+	padding:40px;
+	text-align:center;
+	font-family:Arial;
+	font-size:100%;
+	}
+
+
+
+
+
+#cabecera { 
+	background-color: #fff0f0; 
+	}  
